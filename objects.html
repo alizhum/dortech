@@ -1,0 +1,365 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Главная</title>
+    <link rel="stylesheet" href="css/libs/normalize.css">
+    <link rel="stylesheet" href="css/libs/swiper-bundle.min.css">
+    <link rel="stylesheet" href="css/libs/fancybox.css">
+    <link rel="stylesheet" href="css/style.min.css">
+</head>
+<body>
+    <header id="header" class="header">
+    <div class="header__inner">
+        <div class="header__top">
+            <div class="container">
+                <div class="header__top-inner">
+                    <div class="logo header__logo">
+                        <a class="logo__link" href="#">
+                            <img src="img/logo.png" alt="" class="logo__img header__logo-img">
+                        </a>
+                        <span class="logo__description header__logo-description">
+                            <strong>С 2008 года</strong> в сфере дорожного строительств
+                        </span>
+                    </div>
+                    <div class="contacts header__contacts">
+                        <a class="contacts__item header__contacts-item contacts__item--phone" href="tel:+78123137119">
+                            <svg class="social-icon" viewBox="0 0 24 24" width="24" height="24">
+                                <use href="/img/icons/sprite.svg#phone"></use>
+                            </svg>
+                            +7 (812) 313-71-19
+                        </a>
+                        <a class="contacts__item header__contacts-item contacts__item--email" href="mailto:info@dortec.ru">
+                            <svg class="social-icon" viewBox="0 0 24 24" width="24" height="24">
+                                <use href="/img/icons/sprite.svg#envelope"></use>
+                            </svg>
+                            info@dortec.ru
+                        </a>
+                        <div class="contacts__item header__contacts-item contacts__item--address">
+                            <svg class="social-icon" viewBox="0 0 24 24" width="24" height="24">
+                                <use href="/img/icons/sprite.svg#location-dot"></use>
+                            </svg>
+                            г. Санкт-Петербург, <br> ул. Смоляная, д.15 лит. Б
+                        </div>
+                    </div>
+                    <button class="btn header__callback open-modal" data-modal-id="callback">
+                        Обратный звонок
+                    </button>
+                </div>
+            </div>
+        </div>
+        <div class="header__bottom">
+            <div class="container">
+                <nav class="nav header__nav">
+                    <ul class="nav__list header__nav-list">
+                        <li class="nav__item header__nav-item">
+                            <a class="nav__link header__nav-link" href="#">
+                                <span>Главная</span>
+                            </a>
+                        </li>
+                        <li class="nav__item header__nav-item">
+                            <a class="nav__link header__nav-link" href="#">
+                                Направления деятельности
+                            </a>
+                        </li>
+                        <li class="nav__item header__nav-item">
+                            <a class="nav__link header__nav-link" href="#">
+                                Наши объекты
+                            </a>
+                        </li>
+                        <li class="nav__item header__nav-item">
+                            <a class="nav__link header__nav-link" href="#">
+                                Документация
+                            </a>
+                        </li>
+                        <li class="nav__item header__nav-item">
+                            <a class="nav__link header__nav-link" href="#">
+                                Вакансия
+                            </a>
+                        </li>
+                        <li class="nav__item header__nav-item">
+                            <a class="nav__link header__nav-link" href="#">
+                                Контакты
+                            </a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </div>
+</header>
+    <main class="content" id="content">
+        <div class="page">
+            <div class="breadcrumbs page__breadcrumbs">
+                <div class="container">
+                    <ul class="breadcrumbs__list">
+                        <li class="breadcrumbs__item">
+                            <a href="#" class="breadcrumbs__link">
+                                Главная
+                            </a>
+                        </li>
+                        <li class="breadcrumbs__item">
+                            <span class="breadcrumbs__link breadcrumbs__link--current">
+                                Наши объекты
+                            </span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <section class="section section-gap-bottom objects">
+                <div class="container">
+                    <div class="objects__inner">
+                        <div class="objects__item">
+                            <div class="objects__item-slider-wrap">
+                                <div class="swiper objects__item-slider">
+                                    <div class="swiper-wrapper">
+                                        <div class="swiper-slide">
+                                            <img src="img/intro-3.jpg" alt="" class="objects__item-img">
+                                        </div>
+                                        <div class="swiper-slide">
+                                            <img src="img/intro-2.jpg" alt="" class="objects__item-img">
+                                        </div>
+                                        <div class="swiper-slide">
+                                            <img src="img/intro-4.jpg" alt="" class="objects__item-img">
+                                        </div>
+                                        <div class="swiper-slide">
+                                            <img src="img/intro-5.jpg" alt="" class="objects__item-img">
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="objects__item-slider-nav">
+                                    <button class="btn objects__item-slider-button objects__item-slider-button--prev">
+                                        <svg class="social-icon" viewBox="0 0 24 24" width="24" height="24">
+                                            <use href="/img/icons/sprite.svg#angle-left-thin"></use>
+                                        </svg>
+                                    </button>
+                                    <button class="btn objects__item-slider-button objects__item-slider-button--next">
+                                        <svg class="social-icon" viewBox="0 0 24 24" width="24" height="24">
+                                            <use href="/img/icons/sprite.svg#angle-left-thin"></use>
+                                        </svg>
+                                    </button>
+                                </div>
+                            </div>
+                            <div class="objects__item-info">
+                                <a class="objects__item-title" href="#">
+                                    Название
+                                </a>
+                                <div class="objects__item-description">
+                                    ООО &laquo;ДОР Технологии&raquo; является <strong>официальным дилером завода-изготовителя дорожных ограждений барьерного типа</strong> по&nbsp;Северо-Западному региону
+                                </div>
+                            </div>
+                        </div>
+                        <div class="objects__item">
+                            <div class="objects__item-slider-wrap">
+                                <div class="swiper objects__item-slider">
+                                    <div class="swiper-wrapper">
+                                        <div class="swiper-slide">
+                                            <img src="img/intro-4.jpg" alt="" class="objects__item-img">
+                                        </div>
+                                        <div class="swiper-slide">
+                                            <img src="img/intro-3.jpg" alt="" class="objects__item-img">
+                                        </div>
+                                        <div class="swiper-slide">
+                                            <img src="img/intro-2.jpg" alt="" class="objects__item-img">
+                                        </div>
+                                        <div class="swiper-slide">
+                                            <img src="img/intro-5.jpg" alt="" class="objects__item-img">
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="objects__item-slider-nav">
+                                    <button class="btn objects__item-slider-button objects__item-slider-button--prev">
+                                        <svg class="social-icon" viewBox="0 0 24 24" width="24" height="24">
+                                            <use href="/img/icons/sprite.svg#angle-left-thin"></use>
+                                        </svg>
+                                    </button>
+                                    <button class="btn objects__item-slider-button objects__item-slider-button--next">
+                                        <svg class="social-icon" viewBox="0 0 24 24" width="24" height="24">
+                                            <use href="/img/icons/sprite.svg#angle-left-thin"></use>
+                                        </svg>
+                                    </button>
+                                </div>
+                            </div>
+                            <div class="objects__item-info">
+                                <a class="objects__item-title" href="#">
+                                    Название
+                                </a>
+                                <div class="objects__item-description">
+                                    ООО &laquo;ДОР Технологии&raquo; является <strong>официальным дилером завода-изготовителя дорожных ограждений барьерного типа</strong> по&nbsp;Северо-Западному региону
+                                </div>
+                            </div>
+                        </div>
+                        <div class="objects__item">
+                            <div class="objects__item-slider-wrap">
+                                <div class="swiper objects__item-slider">
+                                    <div class="swiper-wrapper">
+                                        <div class="swiper-slide">
+                                            <img src="img/intro-2.jpg" alt="" class="objects__item-img">
+                                        </div>
+                                        <div class="swiper-slide">
+                                            <img src="img/intro-4.jpg" alt="" class="objects__item-img">
+                                        </div>
+                                        <div class="swiper-slide">
+                                            <img src="img/intro-5.jpg" alt="" class="objects__item-img">
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="objects__item-slider-nav">
+                                    <button class="btn objects__item-slider-button objects__item-slider-button--prev">
+                                        <svg class="social-icon" viewBox="0 0 24 24" width="24" height="24">
+                                            <use href="/img/icons/sprite.svg#angle-left-thin"></use>
+                                        </svg>
+                                    </button>
+                                    <button class="btn objects__item-slider-button objects__item-slider-button--next">
+                                        <svg class="social-icon" viewBox="0 0 24 24" width="24" height="24">
+                                            <use href="/img/icons/sprite.svg#angle-left-thin"></use>
+                                        </svg>
+                                    </button>
+                                </div>
+                            </div>
+                            <div class="objects__item-info">
+                                <a class="objects__item-title" href="#">
+                                    Название
+                                </a>
+                                <div class="objects__item-description">
+                                    ООО &laquo;ДОР Технологии&raquo; является <strong>официальным дилером завода-изготовителя дорожных ограждений барьерного типа</strong> по&nbsp;Северо-Западному региону
+                                </div>
+                            </div>
+                        </div>
+                        <div class="objects__item">
+                            <div class="objects__item-slider-wrap">
+                                <div class="swiper objects__item-slider">
+                                    <div class="swiper-wrapper">
+                                        <div class="swiper-slide">
+                                            <img src="img/intro-5.jpg" alt="" class="objects__item-img">
+                                        </div>
+                                        <div class="swiper-slide">
+                                            <img src="img/intro-3.jpg" alt="" class="objects__item-img">
+                                        </div>
+                                        <div class="swiper-slide">
+                                            <img src="img/intro-2.jpg" alt="" class="objects__item-img">
+                                        </div>
+                                        <div class="swiper-slide">
+                                            <img src="img/intro-4.jpg" alt="" class="objects__item-img">
+                                        </div>
+                                        
+                                    </div>
+                                </div>
+                                <div class="objects__item-slider-nav">
+                                    <button class="btn objects__item-slider-button objects__item-slider-button--prev">
+                                        <svg class="social-icon" viewBox="0 0 24 24" width="24" height="24">
+                                            <use href="/img/icons/sprite.svg#angle-left-thin"></use>
+                                        </svg>
+                                    </button>
+                                    <button class="btn objects__item-slider-button objects__item-slider-button--next">
+                                        <svg class="social-icon" viewBox="0 0 24 24" width="24" height="24">
+                                            <use href="/img/icons/sprite.svg#angle-left-thin"></use>
+                                        </svg>
+                                    </button>
+                                </div>
+                            </div>
+                            <div class="objects__item-info">
+                                <a class="objects__item-title" href="#">
+                                    Название
+                                </a>
+                                <div class="objects__item-description">
+                                    ООО &laquo;ДОР Технологии&raquo; является <strong>официальным дилером завода-изготовителя дорожных ограждений барьерного типа</strong> по&nbsp;Северо-Западному региону
+                                </div>
+                            </div>
+                        </div>
+                        <div class="objects__item">
+                            <div class="objects__item-slider-wrap">
+                                <div class="swiper objects__item-slider">
+                                    <div class="swiper-wrapper">
+                                        <div class="swiper-slide">
+                                            <img src="img/intro-3.webp" alt="" class="objects__item-img">
+                                        </div>
+                                        <div class="swiper-slide">
+                                            <img src="img/intro-2.jpg" alt="" class="objects__item-img">
+                                        </div>
+                                        <div class="swiper-slide">
+                                            <img src="img/intro-4.jpg" alt="" class="objects__item-img">
+                                        </div>
+                                        <div class="swiper-slide">
+                                            <img src="img/intro-5.jpg" alt="" class="objects__item-img">
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="objects__item-slider-nav">
+                                    <button class="btn objects__item-slider-button objects__item-slider-button--prev">
+                                        <svg class="social-icon" viewBox="0 0 24 24" width="24" height="24">
+                                            <use href="/img/icons/sprite.svg#angle-left-thin"></use>
+                                        </svg>
+                                    </button>
+                                    <button class="btn objects__item-slider-button objects__item-slider-button--next">
+                                        <svg class="social-icon" viewBox="0 0 24 24" width="24" height="24">
+                                            <use href="/img/icons/sprite.svg#angle-left-thin"></use>
+                                        </svg>
+                                    </button>
+                                </div>
+                            </div>
+                            <div class="objects__item-info">
+                                <a class="objects__item-title" href="#">
+                                    Название
+                                </a>
+                                <div class="objects__item-description">
+                                    ООО &laquo;ДОР Технологии&raquo; является <strong>официальным дилером завода-изготовителя дорожных ограждений барьерного типа</strong> по&nbsp;Северо-Западному региону
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </main>
+    <footer id="footer" class="footer">
+    <div class="container">
+        <div class="footer__inner">
+            <div class="footer__top">
+                <div class="logo footer__logo">
+                    <a class="logo__link" href="#">
+                        <img src="img/logo.png" alt="" class="logo__img footer__logo-img">
+                    </a>
+                </div>
+                <div class="contacts footer__contacts">
+                    <a class="contacts__item footer__contacts-item contacts__item--phone" href="tel:+78123137119">
+                        <svg class="social-icon" viewBox="0 0 24 24" width="24" height="24">
+                            <use href="/img/icons/sprite.svg#phone"></use>
+                        </svg>
+                        +7 (812) 313-71-19
+                    </a>
+                    <a class="contacts__item footer__contacts-item contacts__item--email" href="mailto:info@dortec.ru">
+                        <svg class="social-icon" viewBox="0 0 24 24" width="24" height="24">
+                            <use href="/img/icons/sprite.svg#envelope"></use>
+                        </svg>
+                        info@dortec.ru
+                    </a>
+                    <div class="contacts__item footer__contacts-item contacts__item--address">
+                        <svg class="social-icon" viewBox="0 0 24 24" width="24" height="24">
+                            <use href="/img/icons/sprite.svg#location-dot"></use>
+                        </svg>
+                        г. Санкт-Петербург, <br> ул. Смоляная, д.15 лит. Б
+                    </div>
+                </div>
+                <a href="#" class="footer__privacy">
+                    Политика конфиденциальности
+                </a>
+            </div>
+            <div class="footer__copyright">
+                <div class="footer__copyright-text">
+                    ⓒ2008-2024 ООО «ДорТехнологии»
+                </div>
+                <span>
+                    Все права защищены
+                </span>
+            </div>
+        </div>
+    </div>
+</footer>
+
+<script src="js/libs/swiper-bundle.min.js"></script>
+<script src="js/libs/fancybox.umd.js"></script>
+<script src="js/main.min.js"></script>
+</body>
+</html>
